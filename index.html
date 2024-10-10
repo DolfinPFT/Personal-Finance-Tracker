@@ -1,36 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gmail Login</title>
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Dolfin Personal Finance Tracker</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <div class="login-container">
-        <h1>Gmail</h1>
-        <form>
-            <div class="input-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit" class="login-btn">Login</button>
-        </form>
-        <div class="footer">
-            <a href="#">Forgot Password?</a>
-            <a href="#">Create Account</a>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="">Dolfin</a>
         </div>
-        <div class="social-links">
-            <a href="https://www.google.com" target="_blank" class="social-icon"><i class="fab fa-google"></i></a>
-            <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
-            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Track</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="index.html">Login</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="background-image">
+        Make your Finance tracking easier
+    </div>
+    <div class="feature-section">
+        <div class="feature-text">
+            <p>Add multiple bank accounts with ease.</p>
+        </div>
+        <div class="feature-image">
+            <img src="img/img2.png" alt="Feature Image">
         </div>
     </div>
+    <div class="feature-section">
+        <div class="feature-image">
+            <img src="img/img 3.png" alt="Feature Image">
+        </div>
+        <div class="feature-text">
+            <p>Track your Savings and Expenditure</p>
+        </div>
+    </div>
+    <div class="feature-section">
+        <div class="feature-text">
+            <p>One app for all your financial needs</p>
+        </div>
+        <div class="feature-image">
+            <img src="img/img5.png" alt="Feature Image" id="img5">
+        </div>
+    </div>
+    <div class="feature-section">
+        <div class="feature-image">
+            <img src="img/img6.png" alt="Feature Image" id="img6">
+        </div>
+        <div class="feature-text">
+            <p>Manage your goals and investments</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
